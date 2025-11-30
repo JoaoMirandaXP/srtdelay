@@ -24,6 +24,7 @@ end
 
 > [!WARNING]
 > Deu trabalho e não funciona fora da pasta que foi compilado o "binário"
+>
 > É preciso ter o graalJVM instalado
 
 ```sh
@@ -45,8 +46,8 @@ srtdelay [-hV] [-ss=<startTimeString>] [-e=<endTimeString>]
                 [-d=<delayTime>] <input> <output>
       <input>           Arquivo de entrada
       <output>          Arquivo de saída
-  -ss=<startTime> Tempo de início
-  -e=<endTime>    Tempo de fim
+  -ss=<startTime>       Tempo de início
+  -e=<endTime>          Tempo de fim
   -d=<delayTime>        Delay aplicado em ms
   -h, --help            Show this help message and exit.
   -V, --version         Print version information and exit.
