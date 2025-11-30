@@ -21,9 +21,10 @@ function srtdelay
 end
 ```
 ### Empacotar
->! Deu trabalho e não funciona fora da pasta que foi compilado o "binário"
 
-| É preciso ter o graalJVM instalado
+> [!WARNING]
+> Deu trabalho e não funciona fora da pasta que foi compilado o "binário"
+> É preciso ter o graalJVM instalado
 
 ```sh
 native-image \
