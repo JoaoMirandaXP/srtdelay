@@ -41,10 +41,10 @@ public class SrtDelay implements Runnable {
     int delayTime = 0;
 
     @Parameters(paramLabel = "<input>", description= "Arquivo de entrada")
-    String inputFilePath = "";
+    File inputFile;
 
     @Parameters(paramLabel = "<output>", description= "Arquivo de saída")
-    String outputFilePath = "";
+    File outputFile;
 
 
     /**
@@ -107,8 +107,7 @@ public class SrtDelay implements Runnable {
     @Override
     public void run()  {
 
-        File inputFile = new File(inputFilePath);
-        File outputFile = new File(outputFilePath);
+        // File outputFile = new File(outputFilePath);
 
         DelayUtils.setDelayTime(delayTime);
         DelayUtils.startTimeString = startTimeString;

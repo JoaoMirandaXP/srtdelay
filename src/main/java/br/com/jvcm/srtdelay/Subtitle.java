@@ -39,7 +39,7 @@ public class Subtitle {
     }
 
     public String getTimestamp(){
-        return start + " ---> " + end;
+        return start + " --> " + end;
     }
 
     @Override
